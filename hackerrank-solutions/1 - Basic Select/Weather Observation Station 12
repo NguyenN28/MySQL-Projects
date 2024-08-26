@@ -1,0 +1,3 @@
+SELECT DISTINCT city FROM station
+WHERE LOWER(city) NOT REGEXP '^[aeiou]'
+AND LOWER(city) NOT REGEXP '[aeiou]$';
