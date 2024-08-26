@@ -1,18 +1,18 @@
-# Step #1 in SQL Island: View All Inhabitants
+Step #1 in SQL Island: View All Inhabitants
 select *
 from inhabitant
 
-# Step #2 in SQL Island: Finding Friendly Inhabitants
+Step #2 in SQL Island: Finding Friendly Inhabitants
 select *
 from inhabitant
 where state like 'friendly'
 
-# Step #3 in SQL Island: Finding Friendly Weaponsmith with AND
+Step #3 in SQL Island: Finding Friendly Weaponsmith with AND
 select *
 from inhabitant
 where job like 'weaponsmith' and state like 'friendly'
 
-# Step #4 in SQL Island: Finding Friendly Smiths with LIKE '%smith'
+Step #4 in SQL Island: Finding Friendly Smiths with LIKE '%smith'
 select *
 from inhabitant
 where job like '%smith' and state like 'friendly'
