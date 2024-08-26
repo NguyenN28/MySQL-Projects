@@ -2,6 +2,7 @@
 Step #1 in SQL Island: View All Inhabitants
 select *
 from inhabitant
+~~~~
 
 Step #2 in SQL Island: Finding Friendly Inhabitants
 select *
