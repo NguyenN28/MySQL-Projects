@@ -1,8 +1,8 @@
-Step #1 in SQL Island: View All Inhabitants
+#Step #1 in SQL Island: View All Inhabitants
 select *
 from inhabitant
 
-Step #2 in SQL Island: Finding Friendly Inhabitants
+#Step #2 in SQL Island: Finding Friendly Inhabitants
 select *
 from inhabitant
 where state like 'friendly'
@@ -97,8 +97,4 @@ DELETE FROM inhabitant WHERE name = 'Dirty Diane'
 
 Step #21 in SQL Island: We've Escaped SQL Island
 update inhabitant set state = 'friendly' where state = 'kidnapped'
-
-
-
-![alt text](https://sql-island.informatik.uni-kl.de/cert.php)
 
